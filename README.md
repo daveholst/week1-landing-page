@@ -1,6 +1,6 @@
 # Week 1 Landing Page Activity
 
-Landing Page activity for end of Week 1. Using out git/html/css skills for a task.
+Landing Page activity for end of Week 1. Using our git/html/css skills for a task.
 
 ## Screenshot
 
@@ -29,16 +29,17 @@ Work in your group to implement the following user stories:
 - [x] It's done when the contact form includes `input` elements for name and email.
 - [x] It's done when the contact form includes a Send button.
 - [x] It's done when the image includes a descriptive `alt` attribute.
-- [ ] It's done when the page is deployed to GitHub Pages.
+- [x] It's done when the page is deployed to GitHub Pages.
 
 ## Extra TODO
 
 - [x] Setup github pages on this repo
-- [ ] Add Screen shot to README
-- [ ] Test Access via GitHub Pages
-- [ ] Lighthouse accessibility report?
+- [x] Add Screen shot to README
+- [x] Test Access via GitHub Pages
+- [x] Lighthouse accessibility report? -- Accessibility Score 96%
 
 ## Notes
 
 - h2 margins not responsive (problem on skills. h2) I guess you would use grid/flex for this? might be able to achieve with media queries? didn't want to waste too much time on this.
 - proabable should have used more divs :rofl: it is pretty jank.
+- or put a border same colour as background aroung portrait. Wouldn't solve radius on heading issue.
