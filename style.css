@@ -1,7 +1,3 @@
-/* header {
-  height: 100%;
-  background-color: pink;
-} */
 * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -59,12 +55,8 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 1.5px;
 }
-.section {
-  /* position: relative; */
-}
+
 h2 {
-  /* position: relative;
-  position: left 320px; */
   background-color: #073b4c;
   color: #06d6a0;
   padding: 5px 5px 5px 10px;
@@ -81,11 +73,20 @@ h2 {
   margin: 10px;
 }
 
-img {
+.image-container {
   width: 300px;
   float: left;
   margin: 0 10px 0px 10px;
   border-radius: 6px;
+}
+
+img {
+  width: 300px;
+  border-radius: 6px;
+}
+
+figcaption {
+  float: left;
 }
 
 p {
