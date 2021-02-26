@@ -1,0 +1,152 @@
+/* header {
+  height: 100%;
+  background-color: pink;
+} */
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #fffffa;
+}
+
+#nav-links-list {
+  /* sticky navbar*/
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  /* get rid of discs(dots) */
+  list-style-type: none;
+  background-color: #ffd166;
+  margin: 0;
+  padding: 0;
+  /* this is required for the ul block/box? to be given a height? seem they
+  float in no-mans land if not used. overflow seems to control how the element
+  interacts with its parent container.  */
+  overflow: hidden;
+}
+
+.nav-links {
+  /* make nav-link li elements float to the right of container */
+  float: right;
+}
+
+.nav-links a {
+  display: block;
+  text-align: center;
+  text-decoration: none; /* remove underline */
+  padding: 10px 10px;
+  color: #073b4c;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.nav-links a:hover {
+  background-color: #ef476f;
+  position: relative;
+  top: 2px;
+}
+
+h1 {
+  background-color: #118ab2;
+  color: #fffffa;
+  margin: 39px 0px 0px 0px;
+  padding: 15px;
+  font-size: 32pt;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+.section {
+  /* position: relative; */
+}
+h2 {
+  /* position: relative;
+  position: left 320px; */
+  background-color: #073b4c;
+  color: #06d6a0;
+  padding: 5px 5px 5px 10px;
+  margin: 10px 10px 10px 320px;
+
+  border-radius: 6px;
+  font-size: 22px;
+  font-weight: normal;
+  text-transform: lowercase;
+  letter-spacing: 1.5px;
+}
+
+.full-width-h2 {
+  margin: 10px;
+}
+
+img {
+  width: 300px;
+  float: left;
+  margin: 0 10px 0px 10px;
+  border-radius: 6px;
+}
+
+p {
+  margin: 10px;
+  text-align: justify;
+}
+
+.form-container {
+  width: 75%;
+  margin: auto;
+}
+
+form {
+  padding: 0;
+}
+
+label {
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+input {
+  font-size: 14pt;
+}
+
+.form-input {
+  /* had to add this to get the input elements to sit inside the container.
+  this option makes the 'max width include the border, padding, etc into the 100$ calc!*/
+  box-sizing: border-box;
+  padding: 6px;
+  margin: 6px 0px;
+  width: 100%;
+  border: 1px solid;
+  border-radius: 6px;
+}
+
+#contact-message {
+  height: 100px;
+}
+
+#contact-submit {
+  padding: 6px;
+  margin: 10px auto;
+  width: 100%;
+  background-color: #ffd166;
+  color: #073b4c;
+  border: 1px solid;
+  border-radius: 6px;
+  font-size: 22px;
+  font-weight: normal;
+  text-transform: lowercase;
+  letter-spacing: 1.5px;
+}
+
+#contact-submit:hover {
+  background-color: #ef476f;
+}
+
+footer {
+  background-color: #ef476f;
+  color: #fffffa;
+  margin-top: 10px;
+  padding: 3px 5px 3px 5px;
+}
